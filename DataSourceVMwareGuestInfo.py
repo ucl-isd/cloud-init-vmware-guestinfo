@@ -31,7 +31,8 @@ import string
 import time
 import zlib
 
-from cloudinit import log as logging
+#from cloudinit import log as logging
+import logging
 from cloudinit import sources
 from cloudinit import util
 from cloudinit import safeyaml
