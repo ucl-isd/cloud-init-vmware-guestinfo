@@ -773,7 +773,9 @@ def main():
                 'network': {'config': {'dhcp': True}}}
     host_info = wait_on_network(metadata)
     metadata = merge_dicts(metadata, host_info)
-    print(util.json_dumps(metadata))
+    print(json.dumps(metadata))
+#    print(util.json_dumps(metadata))
+
 
 
 if __name__ == "__main__":
